@@ -5,11 +5,11 @@ Description: This is a child theme for Flatsome
 Template: flatsome
 Version: 1.8
 */
- 
+
 @import url("../flatsome/css/foundation.css");
 @import "partials/settings";
 @import "partials/styles";
- 
+
 /* =Theme customization starts here */
 
 #top-banner-ad {
@@ -24,7 +24,7 @@ Version: 1.8
 	img {
 		float:right;
 		padding-top: 20px;
-	}	
+	}
 
 }
 #sidebar {
@@ -37,11 +37,11 @@ Version: 1.8
 #tribe-bar-form .tribe-bar-submit input[type=submit] {
 	background-color: $buttoncolor;
 }
-.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"], 
+.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"],
 .tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"]>a,
-#tribe_events_filters_wrapper input[type=submit], 
-.tribe-events-button, #tribe-events .tribe-events-button, 
-.tribe-events-button.tribe-inactive, #tribe-events .tribe-events-button:hover, 
+#tribe_events_filters_wrapper input[type=submit],
+.tribe-events-button, #tribe-events .tribe-events-button,
+.tribe-events-button.tribe-inactive, #tribe-events .tribe-events-button:hover,
 .tribe-events-button:hover, .tribe-events-button.tribe-active:hover {
 	background-color: $buttoncolor;
 }
@@ -50,7 +50,7 @@ Version: 1.8
 	background-color: $buttoncolor;
 }
 #tribe-events-content .tribe-events-tooltip h4,
-#tribe_events_filters_wrapper .tribe_events_slider_val, 
+#tribe_events_filters_wrapper .tribe_events_slider_val,
 .single-tribe_events a.tribe-events-ical, .single-tribe_events a.tribe-events-gcal {
 	color: $linkcolor;
 }
@@ -120,7 +120,7 @@ h2.tribe-events-list-event-title.entry-title + .tribe-events-desc-container { //
 		padding-left: 10px;
 		padding-right: 10px;
 		max-width: 40%;
-	} 
+	}
 	.tribe-events-event-meta {
 		clear: both;
 	}
@@ -148,7 +148,11 @@ h2.tribe-events-list-event-title.entry-title + .tribe-events-desc-container { //
 	//display: none!important; this not working.
 	//visibility: hidden!important;
 }
-
+#tribe-community-events {
+  .error small, small.error {
+    display: inline;
+  }
+}
 #tribe-community-events #event_datepickers .eai-recur-txt {
 	color: red;
 }

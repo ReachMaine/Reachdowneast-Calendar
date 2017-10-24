@@ -1,171 +1,171 @@
-@import url("../flatsome/css/foundation.css");
-/*
-Theme Name: EA Calendar
-Theme URI: http://reachdowneast.com
-Description: This is a child theme for Flatsome
-Template: flatsome
-Version: 1.8
-*/
-/* Colors ---------------------------------------------- */
-/* Typography ------------------------------------------ */
-/* styles */
-.widget {
-  margin-bottom: 10px; }
-
-.ad-container span {
-  display: inline-block;
-  height: auto; }
-
-/* =Theme customization starts here */
-#top-banner-ad {
-  padding: 10px 0 0 0; }
-
-#site-byline-image {
-  display: table-cell;
-  vertical-align: top; }
-  #site-byline-image img {
-    float: right;
-    padding-top: 20px; }
-
-#sidebar {
-  padding-top: 10px; }
-
-#tribe-events-bar {
-  margin-bottom: 0px; }
-
-/* set the colors of stuff */
-#tribe-bar-form .tribe-bar-submit input[type=submit] {
-  background-color: #1e73be; }
-
-.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"],
-.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"] > a,
-#tribe_events_filters_wrapper input[type=submit],
-.tribe-events-button, #tribe-events .tribe-events-button,
-.tribe-events-button.tribe-inactive, #tribe-events .tribe-events-button:hover,
-.tribe-events-button:hover, .tribe-events-button.tribe-active:hover {
-  background-color: #1e73be; }
-
-.tribe-events-day .tribe-events-day-time-slot h5 {
-  background-color: #1e73be; }
-
-#tribe-events-content .tribe-events-tooltip h4,
-#tribe_events_filters_wrapper .tribe_events_slider_val,
-.single-tribe_events a.tribe-events-ical, .single-tribe_events a.tribe-events-gcal {
-  color: #1e73be; }
-
-/* styling of other stuff */
-.tribe-events-abbr.updated {
-  display: block; }
-
-.entry-summary {
-  margin-top: 0px; }
-
-/* styling of bar at top of page */
-.tribe-events-list h2.tribe-events-page-title,
-h2.tribe-events-page-title,
-.tribe-events-page-title {
-  margin-bottom: 0px; }
-
-/* stying of list view */
-.tribe-events-list .vevent.hentry {
-  border-bottom: 1px solid #c2c2c2;
-  padding: 20px 0px; }
-
-.vevent.hentry.tribe-events-last {
-  border-bottom: 0px; }
-
-.tribe-events-list-separator-month {
-  margin-top: 15px;
-  margin-bottom: 0px; }
-
-.tribe-events-list-separator-month + .vevent.hentry.tribe-events-first {
-  padding-top: 12px; }
-
-.tribe-events-list h2.tribe-events-list-event-title {
-  display: block; }
-
-.tribe-events-event-image + .tribe-events-desc-container {
-  width: 66%;
-  float: left; }
-
-h2.tribe-events-list-event-title.entry-title + .tribe-events-desc-container {
-  width: 100%;
-  float: left; }
-
-/* for single event display */
-#tribe-events-content {
-  padding-right: 5px; }
-
-.single-tribe_events .tribe-events-event-image {
-  float: right;
-  padding-left: 10px;
-  padding-right: 10px;
-  max-width: 40%; }
-.single-tribe_events .tribe-events-event-meta {
-  clear: both; }
-.single-tribe_events .tribe-events-content {
-  margin-top: 10px; }
-
-/* photo view */
-#tribe-events-photo-events {
-  margin-top: 0px; }
-
-/* for venue display */
-.tribe-events-venue-meta.vcard {
-  width: 100%;
-  border-bottom: 1px solid #DDD; }
-  .tribe-events-venue-meta.vcard .tribe-events-map-wrap {
-    margin-bottom: 10px; }
-
-/******* add event **********/
-#tribe-community-events #event_datepickers .eai-recur-txt {
-  color: red; }
-
-#tribe-community-events .recurrence-row {
-  display: none;
-  visibility: hidden; }
-
-/******* End add event **********/
-.widget .textwidget .eia-right-rail,
-.widget .textwidget .eai-right-rail {
-  padding-bottom: 15px; }
-
-footer .footer.dark {
-  padding-top: 10px;
-  background-color: #333333 !important; }
-  footer .footer.dark .columns {
-    padding-left: 25px;
-    padding-right: 25px; }
-  footer .footer.dark .widget-title {
-    text-align: center;
-    color: #1e73be;
-    font-size: 14px; }
-  footer .footer.dark .tx-div.small {
-    width: 100%;
-    background-color: #444;
-    opacity: 1.0;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    /* opacity: inherit; */ }
-  footer .footer.dark a {
-    font-size: 14px;
-    color: #DDD;
-    line-height: 20px; }
-footer .absolute-footer.dark {
-  background-color: #000; }
-
-/* media css */
-@media only screen and (max-width: 768px) {
-  .tribe-events-desc-container {
-    width: 100% !important; }
-
-  .widget .textwidget .eia-right-rail,
-  .widget .textwidget .eai-right-rail {
-    text-align: center; } }
-/* at full size */
-@media only screen and (min-width: 1200px) {
-  .widget .textwidget .eia-right-rail,
-  .widget .textwidget .eai-right-rail {
-    width: 300px;
-    margin-left: -30px; } }
-/* leave this as the last thing in the file s.t. it overides above */
+/*
+Theme Name: EA Calendar
+Theme URI: http://reachdowneast.com
+Description: This is a child theme for Flatsome
+Template: flatsome
+Version: 1.8
+*/
+@import url("../flatsome/css/foundation.css");
+/* Colors ---------------------------------------------- */
+/* Typography ------------------------------------------ */
+/* styles */
+.widget {
+  margin-bottom: 10px; }
+
+.ad-container span {
+  display: inline-block;
+  height: auto; }
+
+/* =Theme customization starts here */
+#top-banner-ad {
+  padding: 10px 0 0 0; }
+
+#site-byline-image {
+  display: table-cell;
+  vertical-align: top; }
+  #site-byline-image img {
+    float: right;
+    padding-top: 20px; }
+
+#sidebar {
+  padding-top: 10px; }
+
+#tribe-events-bar {
+  margin-bottom: 0px; }
+
+/* set the colors of stuff */
+#tribe-bar-form .tribe-bar-submit input[type=submit] {
+  background-color: #1e73be; }
+
+.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"],
+.tribe-events-calendar td.tribe-events-present div[id*="tribe-events-daynum-"] > a,
+#tribe_events_filters_wrapper input[type=submit],
+.tribe-events-button, #tribe-events .tribe-events-button,
+.tribe-events-button.tribe-inactive, #tribe-events .tribe-events-button:hover,
+.tribe-events-button:hover, .tribe-events-button.tribe-active:hover {
+  background-color: #1e73be; }
+
+.tribe-events-day .tribe-events-day-time-slot h5 {
+  background-color: #1e73be; }
+
+#tribe-events-content .tribe-events-tooltip h4,
+#tribe_events_filters_wrapper .tribe_events_slider_val,
+.single-tribe_events a.tribe-events-ical, .single-tribe_events a.tribe-events-gcal {
+  color: #1e73be; }
+
+/* styling of other stuff */
+.tribe-events-abbr.updated {
+  display: block; }
+
+.entry-summary {
+  margin-top: 0px; }
+
+/* styling of bar at top of page */
+.tribe-events-list h2.tribe-events-page-title,
+h2.tribe-events-page-title,
+.tribe-events-page-title {
+  margin-bottom: 0px; }
+
+/* stying of list view */
+.tribe-events-list .vevent.hentry {
+  border-bottom: 1px solid #C2C2C2;
+  padding: 20px 0px; }
+
+.vevent.hentry.tribe-events-last {
+  border-bottom: 0px; }
+
+.tribe-events-list-separator-month {
+  margin-top: 15px;
+  margin-bottom: 0px; }
+
+.tribe-events-list-separator-month + .vevent.hentry.tribe-events-first {
+  padding-top: 12px; }
+
+.tribe-events-list h2.tribe-events-list-event-title {
+  display: block; }
+
+.tribe-events-event-image + .tribe-events-desc-container {
+  width: 66%;
+  float: left; }
+
+h2.tribe-events-list-event-title.entry-title + .tribe-events-desc-container {
+  width: 100%;
+  float: left; }
+
+/* for single event display */
+#tribe-events-content {
+  padding-right: 5px; }
+
+.single-tribe_events .tribe-events-event-image {
+  float: right;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 40%; }
+.single-tribe_events .tribe-events-event-meta {
+  clear: both; }
+.single-tribe_events .tribe-events-content {
+  margin-top: 10px; }
+
+/* photo view */
+#tribe-events-photo-events {
+  margin-top: 0px; }
+
+/* for venue display */
+.tribe-events-venue-meta.vcard {
+  width: 100%;
+  border-bottom: 1px solid #DDD; }
+  .tribe-events-venue-meta.vcard .tribe-events-map-wrap {
+    margin-bottom: 10px; }
+
+/******* add event **********/
+#tribe-community-events #event_datepickers .eai-recur-txt {
+  color: red; }
+
+#tribe-community-events .recurrence-row {
+  display: none;
+  visibility: hidden; }
+
+/******* End add event **********/
+.widget .textwidget .eia-right-rail,
+.widget .textwidget .eai-right-rail {
+  padding-bottom: 15px; }
+
+footer .footer.dark {
+  padding-top: 10px;
+  background-color: #333 !important; }
+  footer .footer.dark .columns {
+    padding-left: 25px;
+    padding-right: 25px; }
+  footer .footer.dark .widget-title {
+    text-align: center;
+    color: #1E73BE;
+    font-size: 14px; }
+  footer .footer.dark .tx-div.small {
+    width: 100%;
+    background-color: #444;
+    opacity: 1.0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /* opacity: inherit; */ }
+  footer .footer.dark a {
+    font-size: 14px;
+    color: #DDD;
+    line-height: 20px; }
+footer .absolute-footer.dark {
+  background-color: #000; }
+
+/* media css */
+@media only screen and (max-width: 768px) {
+  .tribe-events-desc-container {
+    width: 100% !important; }
+
+  .widget .textwidget .eia-right-rail,
+  .widget .textwidget .eai-right-rail {
+    text-align: center; } }
+/* at full size */
+@media only screen and (min-width: 1200px) {
+  .widget .textwidget .eia-right-rail,
+  .widget .textwidget .eai-right-rail {
+    width: 300px;
+    margin-left: -30px; } }
+/* leave this as the last thing in the file s.t. it overides above */
