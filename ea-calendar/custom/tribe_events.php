@@ -25,12 +25,18 @@ function my_community_required_fields( $fields ) {
 
    return $fields;
 }
-
+// use action to show the recurring event msg
 add_action("tribe_events_date_display", "eai_recurring_warning");
 function eai_recurring_warning() {
   $eai_msg = '<tr>
       <td></td>
       <td><h3 class="eai-recur-txt">If you have a recurring event, please contact Ellsworth American news desk.</h3></td>
     </tr>';
+    echo $eai_msg;
+}
+// use action to show entering date reminder.
+add_action('tribe_events_community_before_the_datepickers', "eai_date_msg");
+function eai_date_msg() {
+  $eai_msg = '<h5 class="eai-warning">Please select the appropriate date for your event so it will display on the calendar correctly.</h3>';
     echo $eai_msg;
 }
