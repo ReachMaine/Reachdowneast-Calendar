@@ -36,6 +36,10 @@
 		echo '<link rel="shortcut icon" href="' . $favicon_url . '" />';
 	}
 
+	//enqueue the init script for broadstreet.
+	// zig 1Feb18
+	wp_enqueue_script( 'broadstreet', '//cdn.broadstreetads.com/init.js');
+
 require_once(get_stylesheet_directory().'/custom/tribe_events.php');
 require_once(get_stylesheet_directory().'/custom/language.php');
 
