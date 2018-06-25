@@ -42,5 +42,6 @@
 
 require_once(get_stylesheet_directory().'/custom/tribe_events.php');
 require_once(get_stylesheet_directory().'/custom/language.php');
-
+remove_filter( 'the_content', 'wpautop' );
+remove_filter( 'the_excerpt', 'wpautop' );
 ?>
