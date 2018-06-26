@@ -28,6 +28,20 @@ Version: 1.2
 	#header-inner-wrap {
 		//background-color: transparent;
 		background: none; // we put background on header not header-inner-wrap so try to hide here.
+		.logo {
+			text-align: left;
+			float:left;
+		}
+		#header-contols-name {
+			color: white;
+			font-family: Lato, "Open Sans", "Arial", sans-serif;
+			font-weight: 400;
+			font-size: 45px;
+			vertical-align: center;
+			float: left;
+			padding-left: 10px;
+
+		}
 		#reach-header-widget {
 			 text-align: center;
 			 line-height:normal;
