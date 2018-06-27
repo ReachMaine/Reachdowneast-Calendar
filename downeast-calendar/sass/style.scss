@@ -74,8 +74,12 @@ Version: 1.2
 
 }
 
+
 /*** styling of content */
-/*** styling of content */
+#content.no-sidebar-page #content-wrap {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 #content.right-sidebar-page {
 	padding-top: 45px;  // small at mobile in media
 	padding-bottom: 45px;
