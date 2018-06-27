@@ -25,6 +25,10 @@ Version: 1.2
 		background: linear-gradient(to bottom, rgba(255,255,255,0.79) 0%,rgba(255,255,255,0.54) 75%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
 		#topbar-menu { // ul
+			li:after { // add spacing around pipe
+				padding-left: 5px;
+				padding-right: 5px;
+			}
 			img {
 				max-height: 24px;
 			}
@@ -33,6 +37,12 @@ Version: 1.2
 	#header-inner-wrap {
 		//background-color: transparent;
 		background: none; // we put background on header not header-inner-wrap so try to hide here.
+		#header-controls-right,  // all the "header sections"
+		.logo,
+		#header-contols-name,
+		#header-controls-left {
+			line-height: 75px;
+		}
 		.logo {
 			text-align: left;
 			float:left;
@@ -41,6 +51,7 @@ Version: 1.2
 			vertical-align: middle;
 			float: left;
 			padding-left: 10px;
+
 			a {
 				color: white;
 				font-family: Lato, "Open Sans", "Arial", sans-serif;
@@ -50,8 +61,14 @@ Version: 1.2
 		}
 		#reach-header-widget {
 			 text-align: center;
-			 line-height:normal;
+			 line-height: normal;
 			 clear: both;
+			 padding-top: 10px;
+			 padding-bottom: 20px;
+			 .widget {
+				 margin-bottom: 0px;
+			 }
+
 		}
 	}
 
