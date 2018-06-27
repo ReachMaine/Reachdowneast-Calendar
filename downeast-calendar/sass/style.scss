@@ -38,18 +38,20 @@ Version: 1.2
 			float:left;
 		}
 		#header-contols-name {
-			color: white;
-			font-family: Lato, "Open Sans", "Arial", sans-serif;
-			font-weight: 400;
-			font-size: 45px;
 			vertical-align: middle;
 			float: left;
 			padding-left: 10px;
-
+			a {
+				color: white;
+				font-family: Lato, "Open Sans", "Arial", sans-serif;
+				font-weight: 400;
+				font-size: 45px;
+			}
 		}
 		#reach-header-widget {
 			 text-align: center;
 			 line-height:normal;
+			 clear: both;
 		}
 	}
 
