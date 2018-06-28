@@ -34,9 +34,3 @@ function eai_recurring_warning() {
     </tr>';
     echo $eai_msg;
 }
-// use action to show entering date reminder.
-add_action('tribe_events_community_before_the_datepickers', "eai_date_msg");
-function eai_date_msg() {
-  $eai_msg = '<h5 class="eai-warning">Please select the appropriate date for your event so it will display on the calendar correctly.</h3>';
-    echo $eai_msg;
-}
