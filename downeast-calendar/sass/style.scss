@@ -1,6 +1,6 @@
 /*
 Theme Name: downeast-calendar
-Description: Oshin Child Theme for downeastmaine calendar
+Description: Oshin Child Theme for downeastmaine calendar, public notices
 Author: Reach Maine
 Template: oshin
 Version: 1.2
@@ -71,7 +71,13 @@ Version: 1.2
 			 }
 
 		}
-	}
+		#header-bottom-bar {
+			#header-bottom-bar-wrap {
+				z-index: initial; // be-wrap gives it a z=index of 2 which makes menu show through fly-out ads
+			}
+
+		}
+	} // header-inner-warp
 
 }
 
