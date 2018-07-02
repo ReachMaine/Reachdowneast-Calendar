@@ -37,6 +37,7 @@ function reach_widgets_init() {
            'after_title'   => '</h6>',
       )
     );
+      */
   register_sidebar(
         array(
          'name' => __( 'Bottom Call to Action ', 'be-themes' ),
@@ -48,6 +49,6 @@ function reach_widgets_init() {
          'after_title'   => '</h6>',
       )
   );
-  */
+
 }
 add_action( 'widgets_init', 'reach_widgets_init' );
