@@ -8,4 +8,17 @@
 
   //enqueue the init script for broadstreet ads
 	wp_enqueue_script( 'broadstreet', '//cdn.broadstreetads.com/init.js');
+
+  // trying to optimize the admin save of a post by removing the custom fields metabox.
+  // Oct 2018
+  function remove_cfs() {
+   global $post_type;
+
+   if ( is_admin() && post_type_supports( $post_type, 'custom-fields' ) ) {
+  	remove_meta_box( 'postcustom', 'tribe_events', 'normal' );
+  	}
+   }
+
+  add_action( 'add_meta_boxes', 'remove_cfs' );
+
 ?>
