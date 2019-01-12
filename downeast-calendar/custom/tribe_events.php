@@ -28,9 +28,8 @@ function my_community_required_fields( $fields ) {
 // use action to show the recurring event msg
 add_action("tribe_events_date_display", "eai_recurring_warning");
 function eai_recurring_warning() {
-  $eai_msg = '<tr>
-      <td></td>
-      <td><h3 class="eai-recur-txt">If you have a recurring event, please contact Ellsworth American news desk.</h3></td>
-    </tr>';
+  if (!is_admin()) {
+    $eai_msg = '<tr><td></td><td><h3 class="eai-recur-txt">If you have a recurring event, please contact Ellsworth American news desk.</h3></td></tr>';
     echo $eai_msg;
+  }
 }
