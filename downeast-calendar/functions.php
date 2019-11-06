@@ -7,7 +7,7 @@
   require_once(get_stylesheet_directory().'/custom/tribe_events.php');
 
   //enqueue the init script for broadstreet ads
-	wp_enqueue_script( 'broadstreet', '//cdn.broadstreetads.com/init.js');
+	//wp_enqueue_script( 'broadstreet', '//cdn.broadstreetads.com/init.js');  x'd out zig 5Nov19
 
   // trying to optimize the admin save of a post by removing the custom fields metabox.
   // Oct 2018
