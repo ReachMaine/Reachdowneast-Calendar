@@ -56,6 +56,13 @@
 	  display: none;
 	  visibility: hidden;
 	}
+	.tribe-section {
+		table.tribe-section-content {
+			.saved-venue-table-cell,
+			.saved-organizer-table-cell {
+				min-width: 100px;
+				padding-left: 20px;
+			}
+		}
+	}
 }
-
-/******* End add event **********/
