@@ -61,7 +61,7 @@ Version: 1.8
 .entry-summary {
 	margin-top: 0px;
 }
-/* styling of bar at top of page */
+/* styling of bar at top of page 
 .tribe-bar-filters .tribe-bar-filters-inner {
 	.tribe-bar-date-filter #tribe-bar-dates label.label-tribe-bar-date,
 	.tribe-bar-search-filter label.label-tribe-bar-search,
@@ -71,7 +71,7 @@ Version: 1.8
 		//visibility: hidden;
 		//height: 0px;
 	}
-}
+}*/
 .tribe-events-list h2.tribe-events-page-title,
 h2.tribe-events-page-title,
 .tribe-events-page-title {
@@ -160,6 +160,12 @@ h2.tribe-events-list-event-title.entry-title + .tribe-events-desc-container { //
 #tribe-community-events .recurrence-row {
 	display: none;
 	visibility: hidden;
+}
+#tribe-community-events  {
+	#event_tribe_event_status {
+		display: none; // hide event status - scheduled, postponed... (not using and empty)
+
+	}
 }
 /******* End add event **********/
 
